@@ -1,11 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.yarenty.cuda</groupId>
-  <artifactId>jcuda_samples</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>JCUDA samples</name>
-  <description>JCuda examples</description>
-  
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.yarenty.cuda</groupId>
+    <artifactId>jcuda_samples</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>JCUDA samples</name>
+    <description>JCuda examples</description>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- Set needed version of JCuda here -->
@@ -38,22 +39,29 @@
             <artifactId>jcusparse</artifactId>
             <version>${jcuda.version}</version>
         </dependency>
+
+        <!-- MATH STUFF -->
+        <dependency>
+            <groupId>edu.emory.mathcs</groupId>
+            <artifactId>JTransforms</artifactId>
+            <version>2.4</version>
+        </dependency>
+
     </dependencies>
-    
-  
-  <build>
-   
-    
-    
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.0</version>
-        <configuration>
-          <source>1.3</source>
-          <target>1.2</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+
+
+    <build>
+
+
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.0</version>
+                <configuration>
+                    <source>1.3</source>
+                    <target>1.2</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
