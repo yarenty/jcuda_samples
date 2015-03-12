@@ -6,7 +6,7 @@
   <name>JCUDA samples</name>
   <description>JCuda examples</description>
   
-      <properties>
+    <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- Set needed version of JCuda here -->
         <jcuda.version>0.6.5</jcuda.version>
