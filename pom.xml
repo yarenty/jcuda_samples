@@ -7,11 +7,15 @@
     <name>JCUDA samples</name>
     <description>JCuda examples</description>
 
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- Set needed version of JCuda here -->
         <jcuda.version>0.6.5</jcuda.version>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
+    
     <dependencies>
         <!--JCuda Java libs-->
         <dependency>
@@ -47,6 +51,21 @@
             <version>2.4</version>
         </dependency>
 
+
+        <!-- opengl stuff -->
+        <dependency>
+            <groupId>org.jogamp.jogl</groupId>
+            <artifactId>jogl-all-mobile</artifactId>
+            <version>2.1.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.java.dev.gluegen</groupId>
+            <artifactId>gluegen-rt</artifactId>
+            <version>1.0b05</version>
+        </dependency>
+
+
     </dependencies>
 
 
@@ -58,8 +77,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.0</version>
                 <configuration>
-                    <source>1.3</source>
-                    <target>1.2</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>
