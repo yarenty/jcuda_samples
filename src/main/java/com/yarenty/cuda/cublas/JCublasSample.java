@@ -1,4 +1,4 @@
-package com.yarenty.cublas;
+package com.yarenty.cuda.cublas;
 
 /* Imports, JCublas */
 import jcuda.*;

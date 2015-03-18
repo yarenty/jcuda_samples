@@ -1,4 +1,4 @@
-package com.yarenty.cudpp;
+package com.yarenty.cuda.cudpp;
 
 /*
  * JCudpp - Java bindings for CUDPP, the CUDA Data Parallel

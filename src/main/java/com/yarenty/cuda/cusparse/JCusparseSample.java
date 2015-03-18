@@ -1,4 +1,4 @@
-package com.yarenty.cusparse;
+package com.yarenty.cuda.cusparse;
 
 /*
  * JCusparse - Java bindings for CUSPARSE, the NVIDIA CUDA sparse

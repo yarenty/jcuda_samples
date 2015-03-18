@@ -1,4 +1,4 @@
-package com.yarenty.cufft;
+package com.yarenty.cuda.cufft;
 
 /*
  * JCufft - Java bindings for CUFFT, the NVIDIA CUDA FFT library,

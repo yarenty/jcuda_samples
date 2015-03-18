@@ -1,4 +1,4 @@
-package com.yarenty.curand;
+package com.yarenty.cuda;
 
 /*
  * JCurand - Java bindings for CURAND, the NVIDIA CUDA random

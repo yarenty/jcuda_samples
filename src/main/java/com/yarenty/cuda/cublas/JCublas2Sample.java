@@ -1,4 +1,4 @@
-package com.yarenty.cublas;
+package com.yarenty.cuda.cublas;
 /*
  * JCublas - Java bindings for CUBLAS, the NVIDIA CUDA BLAS library,
  * to be used with JCuda <br />

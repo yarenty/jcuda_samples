@@ -1,4 +1,4 @@
-package com.yarenty.kernel;
+package com.yarenty.cuda;
 
 /*
  * JCuda - Java bindings for NVIDIA CUDA driver and runtime API
